@@ -24,7 +24,7 @@
                                     <div class="clearfix">
                                         
                                         <div>
-                                            <h3>Work with heart</h4>
+                                            <h3>Work with heart and more</h4>
                                             <h4>Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in.</h5>
                                         </div>
                                     </div>
