@@ -48,7 +48,7 @@
       <div class="topnav" id="myTopnav">
         <a class="navbar-brand" href="#"><img src="/profile-image/logo.png" alt=""></a>
 
-        <a href="/" class="{{ (request()->is('/')) ? 'active' : '' }}">Marc's Motorcycles</a>
+        <a href="/" class="{{ (request()->is('/')) ? 'active' : '' }}">N.E.CH Vehicles</a>
         <a href="/news" class="{{ (request()->is('news*')) ? 'active' : '' }}">Blogs</a>
         <a href="/motors" class="{{ (request()->is('motors*')) ? 'active' : '' }}">Gallery</a>
         <a href="/contact" class="{{ (request()->is('contact*')) ? 'active' : '' }}">Contact Us</a>
