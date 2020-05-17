@@ -5,17 +5,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<!-- ************** START Internet links ***************** -->
+  <!-- ************** START Internet links ***************** -->
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="/styles/mytemplate.css">
+  <link rel="stylesheet" href="./styles/mytemplate.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
     integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css"
     integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
-
+  <link rel="icon" href="{{ URL::asset('/pics/other/favicon.jpg') }}" type="image/x-icon"/>
   <!-- For AJAX, must be in the head and must be more than the slim version -->
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <!-- ************** END Internet links ***************** -->
@@ -62,7 +62,7 @@
         <a href="/offer/create" class="{{ (request()->is('offer*')) ? 'active' : '' }}">New Offer</a>
 
         @endif
-        
+
         @yield('nav-content')
 
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
